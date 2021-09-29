@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/small_layout_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/smsImage"
+        android:layout_width="66dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="@dimen/margin_imageview"
+        android:layout_marginLeft="@dimen/margin_imageview"
+        android:layout_marginTop="@dimen/margin_imageview"
+        android:layout_marginEnd="@dimen/margin_imageview"
+        android:layout_marginRight="@dimen/margin_imageview"
+        android:layout_marginBottom="@dimen/margin_imageview"
+        android:src="@drawable/ic_account_circle_black_36dp" />
+
+    <TextView
+        android:id="@+id/smsSender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margin_imageview"
+        android:layout_marginTop="@dimen/margin_sender"
+        android:layout_toRightOf="@id/smsImage"
+        android:text="@string/title"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimaryText" />
+
+    <TextView
+        android:id="@+id/smsContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/smsSender"
+        android:layout_marginRight="@dimen/margin_imageview"
+        android:layout_toRightOf="@id/smsImage"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/content_small"
+        android:textSize="@dimen/previewMessageSize" />
+
+    <TextView
+        android:id="@+id/time"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/smsContent"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/colorPrimaryThird"
+        android:layout_toRightOf="@id/smsImage"
+        />
+
+</RelativeLayout>

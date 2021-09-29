@@ -1,0 +1,43 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/bg"
+    android:id="@+id/main_app"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="106dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:text="@string/slogan"
+        android:textColor="#9E9E9E"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <!--<ProgressBar-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_marginTop="140dp"-->
+    <!--/>-->
+    <io.netopen.hotbitmapgg.library.view.RingProgressBar
+        android:id="@+id/ringProgress"
+        android:layout_width="53dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        app:max="100"
+        app:ringColor="@color/colorPrimary"
+        app:ringProgressColor="@color/colorPrimaryDark"
+        app:style="FILL"
+        app:textColor="@color/colorPrimary"
+        app:textIsShow="true"
+        app:textSize="15sp" />
+
+</LinearLayout>

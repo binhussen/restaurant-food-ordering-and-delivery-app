@@ -1,0 +1,206 @@
+<resources>
+    <string name="edit">Update</string>
+    <string name="remove">Remove</string>
+    <string name="detail">Detail</string>
+    <string name="direction">Ditection</string>
+
+    <!--sms-->
+    <string name="content_small">This is the preview of the full SMS. To read more click on the SMS.</string>
+    <string name="title_activity_sms_detailed_view">SmsDetailedView</string>
+    <string name="write_message">Write Message..</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="google_drive_backup">Backup Messages</string>
+    <string name="backup_on_drive">Backup all your messages on Google Drive</string>
+    <string name="app_label">Search</string>
+    <string name="search_hint">Search Messages..</string>
+    <string name="sms_delivered">SMS delivered</string>
+    <string name="sms_not_delivered">SMS not delivered</string>
+    <string name="please_write_number">Please provide a number</string>
+    <string name="please_write_message">Please write some message</string>
+    <string name="cant_send">Can\'t send sms to this contact.</string>
+    <string name="please_wait">Please wait..</string>
+    <string name="restore_backup">Restore Backup</string>
+    <string name="restore_backup_all">Restore all your drive stored sms.</string>
+    <string name="google_drive_restore">Restore Backup</string>
+
+    <string name="app_name">Manager</string>
+    <string name="slogan">Kana restaurant</string>
+
+    <!--MainActivity Button-->
+    <string name="signUp">Sign Up</string>
+    <string name="signIn">Sign In</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="change_lang">Change Language</string>
+
+    <string name="total">Total</string>
+    <string name="placeorder">Place Order</string>
+    <string name="continu">Continue</string>
+    <string name="price">0 Birr</string>
+    <string name="foodname">Food Name</string>
+    <string name="birr">Birr</string>
+    <string name="search">Enter food</string>
+    <string name="searchs">Search food</string>
+    <string name="description">Description</string>
+    <string name="phone">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="securecode">Secure Code</string>
+    <string name="newpassword">New Password</string>
+    <string name="repeatpassword">Repeat Password</string>
+    <string name="about">About</string>
+    <string name="address">Address</string>
+
+    <string name="menu">Menu</string>
+    <string name="cart">Cart</string>
+    <string name="orders">Orders</string>
+    <string name="help">Help</string>
+    <string name="share">Share</string>
+    <string name="refresh">Refresh</string>
+    <string name="signout">Sign out</string>
+    <string name="setting">Setting </string>
+    <string name="forget_pwd"><u>Forget Password</u></string>
+    <string name="remember"><u>Remember me</u></string>
+    <string name="comment">Comment</string>
+    <string name="change_password">Change Password</string>
+
+    <string name="idom">Your Expectation Is Our Service</string>
+    <string name="txtlogin">"Don't have an account? Sign up"</string>
+    <string name="txtlogup">"Already have an account? Sign in"</string>
+
+
+    <!--cart-->
+    <string name="item">Total Item :</string>
+    <string name="pack">Packing Charges :</string>
+    <string name="delivery">Delivery Charges :</string>
+    <string name="tax">TAX :</string>
+
+    <!--java-->
+    <string name="emptycart">Your cart is empty !!</string>
+    <string name="step">One more step!</string>
+    <string name="addre">Enter your address: </string>
+    <string name="pay">Pay</string>
+    <string name="chosep">Choose Your Payment: </string>
+    <string name="enterpass">Please enter Password</string>
+    <string name="order">Order</string>
+
+    MHD
+    <string name="title">title</string>
+    <string name="message">Message</string>
+    <string name="youro">Your Order need Driver</string>>
+    <string name="thano">Thank you, Order Place.</string>
+    <string name="failed">Failed !!!</string>
+    <string name="cacel">Cancel</string>
+    <string name="add">Added to cart</string>
+    <string name="please">Please check Your connection</string>
+    <string name="check">Please Check Your Internet Connection</string>
+    <string name="errorf">Error: foodId : </string>
+    <string name="entrr">Enter your food</string>
+    <string name="load">loaded List Food:</string>
+    <string name="value">Value of Key: </string>
+    <string name="changep">Change Password </string>
+    <string name="fill">Please Fill all information</string>
+    <string name="change">Change</string>
+    <string name="passu">Password was Updated</string>
+    <string name="newpassd">"New Password doesn't Match"</string>
+    <string name="wropass">Wrong Old Password</string>
+    <string name="entercomm">Enter your Comment...</string>
+    <string name="yes">Yes</string>
+    <string name="no">NO</string>
+    <string name="thankc">Thank you, Comment sent.</string>
+    <string name="error">Error</string>
+    <string name="skip">Skip</string>
+    <string name="exit">Exit</string>
+    <string name="val">Value: </string>
+    <string name="enterf">Enter your food</string>
+    <string name="pleasew">Please wait...</string>
+    <string name="signsuccess">Sign in success!!!</string>
+    <string name="wrongpass">Wrong password!!!</string>
+    <string name="userd">User not exist in database!</string>
+    <string name="choosel">Choose Language...</string>
+    <string name="phonea">Phone Number already register!!!</string>
+    <string name="signeucc">Sign Up successfully</string>
+    <string name="selecta">Select action</string>
+
+    <string name="commentdelete">do you went to delete this comment ?</string>
+    <string name="deletex">has been deleted!</string>
+    <string name="addfood">Add new Food</string>
+    <string name="newcate">New Category</string>
+    <string name="added">added</string>
+    <string name="selectpic">Select Picture</string>
+    <string name="upload">Uploading...</string>
+    <string name="uploaded">Uploaded</string>
+    <string name="uploadsucc">Upload Successfully!!!</string>
+    <string name="imgselected">Img Selected</string>
+    <string name="fooddelete">do you went to delete this Food ?</string>
+    <string name="editfood">Edit Food</string>
+    <string name="catagory">Category</string>
+    <string name="editedsuccessfully">Edited SuccessFully</string>
+    <string name="addcate">Add new Category</string>
+    <string name="catagorydelete">do you went to delete this Category ?</string>
+    <string name="editcate">Edit Category</string>
+    <string name="catid">CategoryId</string>
+    <string name="orderid">OrderId</string>
+    <string name="oredrdelete">do you went to delete this order ?</string>
+    <string name="oredrupd">Update Order</string>
+
+    <string name="statusupdate">Please choose status</string>
+    <string name="placed">Placed</string>
+    <string name="payed">Payed</string>
+    <string name="cooked">Cooked</string>
+    <string name="delivering">Delivering</string>
+    <string name="delivered">Delivered</string>
+
+    <string name="addi">Add</string>
+    <string name="update">Update</string>
+    <string name="updatesheaf">Update Chaf</string>
+    <string name="sheafupdated">Chaf Updated</string>
+    <string name="create">Create</string>
+    <string name="createsheaf">Create Chaf</string>
+    <string name="sheafcreated">Chef Created</string>
+    <string name="updatedriver">Update Driver</string>
+    <string name="driverupdate">Update Driver</string>
+    <string name="craetedriver">Create Driver</string>
+    <string name="drivercreated">Driver Created</string>
+
+    <string name="passsent">Password sent to your email</string>
+    <string name="pleasewait">Please Wait...</string>
+    <string name="customerdelete">do you went to delete this Customer ?</string>
+    <string name="removesuccess">Removed Success</string>
+    <string name="createmanager">Create Manager</string>
+    <string name="exist">already exist</string>
+    <string name="success">Successful</string>
+
+    <string name="manager">Manager</string>
+    <string name="conotdelete">"You Can't delete your Account"</string>
+
+    <!--form validation-->
+    <string name="err_name">Enter Correct Name</string>
+    <string name="err_tel">Enter Correct Mobile no</string>
+    <string name="err_email">Enter Correct Email</string>
+    <string name="err_year">Enter Correct year</string>
+    <string name="err_height">Enter Correct Length</string>
+    <string name="err_password_confirmation">Password do not match</string>
+    <string name="err_password">Enter Password</string>
+
+    <string name="err_ctt">Enter Correct Title</string>
+    <string name="err_cdd">Enter Correct Comment</string>
+
+    <string name="err_cbe">Enter four digit password</string>
+    <string name="err_address">Enter Correct Address</string>
+
+    <string name="err_dicription">Enter Correct Discription</string>
+    <string name="err_price">Enter Correct Price</string>
+    <string name="err_dicount">Enter Correct Dicount</string>
+    <string name="err_image">Please select Image</string>
+
+    You can not delete ths order
+    has been deleted!
+</resources>

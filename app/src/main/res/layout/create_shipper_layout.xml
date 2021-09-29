@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+
+        <EditText
+            android:id="@+id/edt_names"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"
+            android:inputType="text"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+            android:textSize="24sp"
+            android:maxLength="11"/>
+
+        <EditText
+            android:id="@+id/edt_phones"
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/phone"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+            android:textSize="24sp"/>
+
+        <EditText
+            android:id="@+id/edt_passwords"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+            android:textSize="24sp"/>
+        <EditText
+            android:id="@+id/edt_passwordrepeat"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/repeatpassword"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+            android:textSize="24sp"/>
+
+        <EditText
+            android:id="@+id/edt_secure"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/securecode"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+            android:textSize="24sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Driver Type : "
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/cacel" />
+
+            <Button
+                android:id="@+id/ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/create" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

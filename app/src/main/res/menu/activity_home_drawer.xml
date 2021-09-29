@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/meni"
+            android:title="Menu" />
+
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/corder"
+            android:title="Orders" />
+        <item
+            android:id="@+id/nav_comment"
+            android:icon="@drawable/ic_comment_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="@string/comment" />
+        <item
+            android:id="@+id/nav_shipper"
+            android:icon="@drawable/shipper"
+            android:title="Driver_Management" />
+
+        <item
+            android:id="@+id/nav_sheaf"
+            android:icon="@drawable/chef"
+            android:title="Sheaf_Management" />
+        <item
+            android:id="@+id/nav_user"
+            android:icon="@drawable/mpayment"
+            android:title="User Managment" />
+        <item
+            android:id="@+id/nav_payment"
+            android:icon="@drawable/mpayment"
+            android:title="Manage Payment" />
+        <item
+            android:id="@+id/nav_change_password"
+            android:icon="@drawable/ic_security_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="@string/change_password" />
+        <item
+            android:id="@+id/nav_language"
+            android:icon="@drawable/ic_build_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="@string/change_lang" />
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/exit_app"
+            android:title="Sign Out" />
+    </group>
+
+</menu>
