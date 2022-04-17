@@ -13,6 +13,10 @@ It contains **four** different app as one use for different actors
 I have covered all the advanced topics to make it production-ready.
 Anyone can use this code for their own purpose. 
 
+## Documents
+- [Documentation](https://docs.google.com/document/d/1aV7IIOUv21ujT_bmwItPIXvalOIkFwiO/edit?usp=sharing&ouid=112159239796426554182&rtpof=true&sd=true)
+- [Presentation](https://docs.google.com/presentation/d/1W2NbXKFWwmlUnjBC909UxkFGqsjf4xm3/edit?usp=sharing&ouid=112159239796426554182&rtpof=true&sd=true)
+
 ## ScreenShots
 <p float="left">
 <img src="https://user-images.githubusercontent.com/52010789/156871994-fac0a47e-c3eb-4f73-bb2f-146466cfa6b7.jpg" width="200" height="400" />
